@@ -1,0 +1,61 @@
+body{
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+}
+.container{
+    width: 660px;
+    height: 380px;
+    border: none;
+    border-radius: 50%px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+}
+.container{
+    display: flex;
+    border: 1px;
+    border-radius: 10px;
+}
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  padding: 35px;  
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 35px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 35px;
+}
+p{
+    font-family: 'Lexend Deca' sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+    font-size: smaller;
+    line-height: 1.5;
+}
+header{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+button{
+    margin-top: 70px;
+    border: none;
+    border-radius: 100px;
+    padding: 7px 20px;
+    font-size: xx-small;
+}
+.sedans-btn{
+    color: hsl(31, 77%, 52%);
+}
+.suv-btn{
+    color: hsl(184, 100%, 22%);
+}
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+}
+
+
